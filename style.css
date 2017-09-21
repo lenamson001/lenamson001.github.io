@@ -71,7 +71,7 @@ html{
 }
 
 .pt-header{
-	padding-top: 47px;
+	padding-top: 52px;
 }
 
 .thempt{
@@ -421,6 +421,7 @@ padding-left: 0;
 
 .noidung{
 	color: #666;
+	font-size: 13px;
 }
 
 .docthem{
@@ -450,14 +451,19 @@ padding-left: 0;
 	padding-top: 10px;
 }
 
+.slogan{
+	font-size: 18px;
+	padding-top: 40px;
+}
+
 
 .khoiduoi ul{
 	list-style-type: none;
 }
 
 .khoiduoi li a{
-	padding-right: 30px;
-	font-size: 14px;
+	padding-right: 20px;
+	font-size: 13px;
 	color: #acacac;
 }
 
@@ -503,5 +509,5 @@ padding-left: 0;
 
 .banquyen{
 	color: #cccccc;
-	font-size: 14px;
+	font-size: 12px;
 }
