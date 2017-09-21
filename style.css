@@ -299,7 +299,7 @@ html{
 .khoimenu{
 	max-width: 100%;
 	height: auto;
-	background: url(images/bg-menu.png) no-repeat;
+	background: url(images/bg-menu.jpg) no-repeat;
 	background-size: cover;
 	color: #ffffff;
 
@@ -322,9 +322,9 @@ html{
 
 .anhtraviet{
 	float: left;
-	padding-right: 10px;
 	max-width: 100%;
 	height: auto;
+	border-radius: 5px;
 }
 
 .hrxam{
@@ -339,11 +339,15 @@ html{
 	font-size: 18px;
 	width: 1%;
 	white-space: nowrap;
+	padding-left: 10px;
 	
 }
 
 .menusub{
 	font-size: 14px;
+	padding-left: 10px;
+	display: inline-block;
+	color: #9c9c9c;
 }
 
 .menuprice{
@@ -352,6 +356,7 @@ html{
 	font-size: 20px;
 	width: 1%;
 	white-space: nowrap;
+	color: #fef5c0;
 }
 
 .pt-xemmenu{
