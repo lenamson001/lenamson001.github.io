@@ -8,6 +8,7 @@
 .tieudetin{
 	font-size: 30px;
 	font-weight: bold;
+
 }
 
 .binhluan{
@@ -29,4 +30,8 @@
 
 .baiviet1{
 	padding-bottom: 70px;
+}
+
+.tacgia{
+	padding-top: 10px;
 }
