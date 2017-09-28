@@ -1,0 +1,42 @@
+.trangmenu{
+	max-width: 100%;
+	height: auto;
+	background: #fffcf2;
+	padding-bottom: 120px;
+	
+}
+
+.menuprice{
+	color: #3d0e0a;
+}
+
+.hrxam2{
+	
+	z-index: 1;
+	position: relative;
+	bottom: -30px;
+	border-color: rgba(0,0,0,.15);
+	width: 98%;
+	display: table-cell;
+
+}
+
+.traviet,.trauophuong{
+	font-size: 30px;
+	font-weight: bold;
+	display: inline-block;
+	
+	
+}
+
+
+
+.hrnau2{
+	border-color: #3d0e0a;
+	width: 80px;
+	text-align: center;
+	display: block;
+	padding-bottom: 50px;
+	margin:10px 0px;
+
+}
