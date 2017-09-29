@@ -61,33 +61,64 @@ html{
 	background-color: rgba(254, 245, 192, 0.6);
 }
 
+.navbar{
+	padding: 0;
+}
+
+
 .nav-link:hover{
 	color: #3d0e0a !important;
 }
 
+.nav-item{
+	
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
 .dropdown-menu-hoatamtra{
 	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
 	left: -10px;
 	margin-top: 7px;
-	border:none;
-	padding-bottom: 0;
+	position: absolute;
+	float: left;
+	min-width: 10rem;
+	list-style-type: none;
+	background: white;
+	z-index: 1000;
+	visibility: hidden;
+	border-radius: 0.25rem;
+	background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+
+    
 }
 
 .dropdown-menu-hoatamtra a{
 	text-decoration: none;
 	color: #c7a17a;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	display: block;
+	font-size: 14px;
+	
 }
+
+
 
 .dropdown-menu-hoatamtra a:hover{
 	color: #3d0e0a;
 	
 }
 
-/*.dropdown:hover .dropdown-menu-hoatamtra{
-	display: block;
-}*/
+.noidunghtt{
+	position: relative;
+}
+
+.noidunghtt:hover .dropdown-menu-hoatamtra{
+	visibility: visible;
+}
 
 /*css cho header*/
 .header{

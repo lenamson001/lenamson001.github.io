@@ -1,9 +1,6 @@
-*{
-	margin: 0; padding: 0;
-	box-sizing: border-box;
-} 
 
-/*css cho khối bài viết*/
+
+/*css riêng cho các bài viết*/
 
 .tieudetin{
 	font-size: 30px;
@@ -26,6 +23,7 @@
 
 .tieudetin h5{
 	line-height: 25px;
+	font-weight: 300 !important;
 }
 
 .baiviet1{
