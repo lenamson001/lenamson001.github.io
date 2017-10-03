@@ -182,11 +182,16 @@ html{
 }
 
 .banner-text{
-	bottom: 20%;
+	bottom: 17%;
 	width: 100%;
 	right: 0;
 	left: 0;
 	padding-bottom: 0;
+}
+
+.htt-text{
+	width: 480px;
+	height: auto;
 }
 
 /*css cho khoigioithieu*/
@@ -525,15 +530,6 @@ padding-left: 0;
 	text-decoration: none;
 }
 
-.hrtrang{
-	border-bottom: 1px solid #494949;
-	width: 100%;
-	text-align: center;
-	display: inline-block;
-	margin-top: 0;
-
-}
-
 .khoiduoi i{
 	float: right;
 	margin-left: 30px;
@@ -544,6 +540,17 @@ padding-left: 0;
 .khoiduoi i:hover{
 	color: #73514e;
 }
+
+.hrtrang{
+	border-bottom: 1px solid #494949;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	margin-top: 0;
+
+}
+
+
 
 
 
@@ -564,6 +571,10 @@ padding-left: 0;
 	color: #cccccc;
 	font-size: 12px;
 }
+
+/*----------------------------------*/ 
+/*css cho các phần chung của trang web*/
+
 
 /*css cho khối breadcrumb*/
 
@@ -694,4 +705,94 @@ background: none;
 	background-color: white;
 	color: #c59c6c;
 	border-color: #c59c6c;
+}
+
+/*--------------------------*/
+
+/*css cho giao diện responsive*/
+
+
+
+
+@media(max-width: 576px){      /*xs*/
+	.logo-header{
+		display: block;
+		margin: auto;
+
+	}
+
+	.htt-text{
+		position: relative !important;
+		top: 25px !important;
+	}
+
+	.thtv{
+		visibility:visible !important; 
+		font-size: 14px;
+	}
+
+	
+
+
+}
+
+@media (max-width: 768px){     /*sm*/
+	.text-icon{
+		font-size: 12px;
+	}
+
+	.textdkdn{
+		font-size: 11px;
+	}
+
+	.icon-user{
+		font-size: 12px;
+	}
+
+	.thtv{
+		visibility: hidden;
+	}
+
+	.banner-text{
+		font-size: 13px !important;
+	}
+
+	.htt-text{
+		position: relative;
+		top: 50px;
+	}
+
+	.khoiduoi i{
+		float: left;
+		margin-left: 0;
+		margin-right: 30px;
+	}
+
+
+}
+
+@media (max-width: 992px) {     /*md*/
+	
+
+	.nav-link{
+		font-size: 12px;
+	}
+
+	.htt-text{
+		width: 50%;
+	}
+
+	.thtv{
+		padding-top: 2rem !important;
+		padding-bottom: 2rem !important;
+	}
+
+	.banner-text{
+		font-size: 15px;
+	}
+
+	.tieudevang{
+		padding-top: 40px;
+	}
+
 }
