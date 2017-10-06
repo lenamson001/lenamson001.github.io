@@ -54,6 +54,10 @@ html{
 	color: #fbfcfc;
 }
 
+.xamf3{
+	color: #f3f2ed;
+}
+
 /*------------------------*/
 
 /*css cho navbar*/
@@ -106,7 +110,6 @@ html{
 }
 
 
-
 .dropdown-menu-hoatamtra a:hover{
 	color: #3d0e0a;
 	
@@ -118,6 +121,20 @@ html{
 
 .noidunghtt:hover .dropdown-menu-hoatamtra{
 	visibility: visible;
+}
+
+.icon-responsive{
+	
+	float: right;
+}
+
+.icon-responsive a{
+	display: inline-block;
+	padding-top: 8px;
+}
+
+.icon-navbar{
+
 }
 
 /*css cho header*/
@@ -396,6 +413,7 @@ html{
 	max-width: 100%;
 	height: auto;
 	border-radius: 2px;
+	padding-right: 10px;
 }
 
 .hrxam{
@@ -410,13 +428,12 @@ html{
 	font-size: 18px;
 	width: 1%;
 	white-space: nowrap;
-	padding-left: 10px;
+	
 	
 }
 
 .menusub{
 	font-size: 14px;
-	padding-left: 10px;
 	display: inline-block;
 	color: #9c9c9c;
 }
@@ -731,6 +748,18 @@ background: none;
 		font-size: 14px;
 	}
 
+	.menutitle{
+		font-size: 16px;
+	}
+
+	.menuprice{
+		font-size: 18px;
+	}
+
+	.menusub{
+		font-size: 12px;
+	}
+
 	
 
 
@@ -766,6 +795,18 @@ background: none;
 		float: left;
 		margin-left: 0;
 		margin-right: 30px;
+	}
+
+	.icon-responsive{
+		visibility: visible;
+	}
+
+	.nav-item{
+		margin-left: 0 !important;
+	}
+
+	.menuprice{
+		display: block;
 	}
 
 
