@@ -1,8 +1,8 @@
-// $(document).ready( function() {
+$(document).ready( function() {
     
-//      ( $(window).width() < 500) {
-//      $("span").removeClass("icon-responsive");
-//     }
-//  });
+    if ( $(window).width() > 767) {
+     $('a').removeAttr('data-toggle');
+    }
+ });
 
  

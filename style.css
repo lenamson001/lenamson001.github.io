@@ -96,8 +96,24 @@ html{
 	border-radius: 0.25rem;
 	background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, .15);
-
     
+}
+
+.dropdown-menu{
+	padding: 0;
+
+}
+
+.dropdown-menu a{
+	
+	color: #c7a17a;
+	padding-left: 20px;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	border-bottom: 1px solid #e5e5e5;
+	display: block;
+	font-size: 14px;
+
 }
 
 .dropdown-menu-hoatamtra a{
@@ -115,8 +131,15 @@ html{
 	
 }
 
+.dropdown{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 .noidunghtt{
 	position: relative;
+	
 }
 
 .noidunghtt:hover .dropdown-menu-hoatamtra{
@@ -765,7 +788,7 @@ background: none;
 
 }
 
-@media (max-width: 768px){     /*sm*/
+@media (max-width: 767px){     /*sm*/
 	.text-icon{
 		font-size: 12px;
 	}
@@ -807,6 +830,14 @@ background: none;
 
 	.menuprice{
 		display: block;
+	}
+
+	.mottin{
+		max-width: 360px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		border-bottom: 1px solid #e5e5e5;
+		margin: auto;
 	}
 
 
