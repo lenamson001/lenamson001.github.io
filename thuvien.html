@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css-js/lightbox.min.css"> <!-- chỉ áp dụng cho thư viện -->
     <link rel="stylesheet" href="vendor/font-awesome.css">
     <link rel="shortcut icon" href="images/logo.png">
+    <script src="css-js/index.js"></script>
     
 
     <script>
@@ -28,15 +29,15 @@
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-sm-2">
+                <div class="col-lg-5 col-md-2 col-sm-4 col-xs-12">
                     <img class="logo-header" src="images/logo.png" alt="">
                 </div>
-                <div class="col-sm-3"></div>
-                <div class="col-sm-4 time-open">
-                    <p class="text-icon giampt"><i class="fa fa-clock-o nau"> </i> Thời gian mở cửa từ 8:00 AM - 10:00 PM</p>
-                    <p class="text-icon"><i class="fa fa-phone nau"></i> Hotline : 0974743699 - 01646499251</p>
+                
+                <div class="col-lg-4 col-md-6 col-sm-8 hidden-xs-down time-open">
+                    <p class="text-icon giampt hidden-md-down1"><i class="fa fa-clock-o nau"> </i> Thời gian mở cửa từ 8:00 AM - 10:00 PM</p>
+                    <p class="text-icon hidden-md-down1"><i class="fa fa-phone nau"></i> Hotline : 0974743699 - 01646499251</p>
                 </div>
-                <div class="col-sm-3 text-sm-right icon-user ">
+                <div class="col-lg-3 col-md-4 hidden-sm-down hidden-xs-down text-sm-right icon-user ">
                     <i class="fa fa-user nau"></i><span class="textdkdn mr-1"><a href="dangnhap.html"> Đăng nhập</a></span>
                     <i class="fa fa-user-plus nau "></i><span class="textdkdn"><a href="dangky.html"> Đăng ký</a></span>
                 </div>
@@ -44,14 +45,24 @@
         </div>
     </div>
     <!-- end header -->
+    
     <div class="khoinavbar">
         <nav class="navbar navbar-light bg-vang">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+                        
+                        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
                         </button>
-                        <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+
+                        <span class="icon-responsive hidden-md-up">
+                        <a href="" class="mr-2"><i class="fa fa-search nau"></i></a>
+                        <a href="" class="mr-2"><i class="fa fa-shopping-cart nau"></i></a>
+                        <a href="dangnhap.html" class="mr-2"><i class="fa fa fa-user nau"></i></a>
+                        <a href="dangky.html" class=""><i class="fa fa fa-user-plus nau"></i></a>
+                        </span>
+
+                        <div class="collapse navbar-toggleable-sm" id="exCollapsingNavbar2">
                             <ul class="nav navbar-nav">
                                 <li class="nav-item active">
                                     <a class="nav-link nau" href="index.html">TRANG CHỦ <span class="sr-only">(current)</span></a>
@@ -59,9 +70,19 @@
                                 <li class="nav-item ml-3">
                                     <a class="nav-link  " href="gioithieu.html">GIỚI THIỆU</a>
                                 </li>
+
                                 <li class="noidunghtt nav-item ml-3 ">
-                                    <a class="nav-link" href="sanpham.html">SẢN PHẨM <i class="fa fa-sort-down"></i></a>
-                                    <ul class="dropdown-menu-hoatamtra ">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="sanpham.html">SẢN PHẨM </a>
+
+                                    <ul class="dropdown-menu hidden-md-up "> <!-- dropdown mobile -->
+                                      <li><a href="sanpham-tra.html">Trà</a></li>
+                                      <li><a href="sanpham-quabieu.html">Bộ quà biếu cao cấp</a></li>
+                                      <li><a href="sanpham-amchen.html">Ấm chén trà</a></li>
+                                      <li><a href="sanpham-boamchen.html">Bộ ấm chén trà</a></li>
+                                    </ul>
+                                
+
+                                    <ul class="dropdown-menu-hoatamtra hidden-sm-down "> <!-- dropdown desktop -->
                                         
                                     <li><a href="sanpham-tra.html">Trà</a></li>
                                     <li><a href="sanpham-quabieu.html">Bộ quà biếu cao cấp</a></li>
@@ -70,25 +91,36 @@
                                     
                                 </ul>
                                   </li>
+
                                 <li class="nav-item ml-3">
                                     <a class="nav-link" href="menu.html">MENU</a>
                                 </li>
                                 <li class="nav-item ml-3">
                                     <a class="nav-link" href="thuvien.html">THƯ VIỆN</a>
-                                </li>                               
-                
+                                </li>
+
                                 <li class="noidunghtt nav-item ml-3 ">
-                                    <a class="nav-link" href="tintuc.html">TIN TỨC <i class="fa fa-sort-down"></i></a>
-                                    <ul class="dropdown-menu-hoatamtra ">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="tintuc.html">TIN TỨC </a>
+
+                                    <ul class="dropdown-menu hidden-md-up "> <!-- dropdown mobile -->
+                                      <li><a href="tintuc-tra.html">Trà</a></li>
+                                      <li><a href="tintuc-chung.html">Tin tức chung</a></li>
+                                      <li><a href="tintuc-km.html">Khuyến mại</a></li>
+                                      
+                                    </ul>
+                                
+
+                                    <ul class="dropdown-menu-hoatamtra hidden-sm-down "> <!-- dropdown desktop -->
                                         
                                     <li><a href="tintuc-tra.html">Trà</a></li>
                                     <li><a href="tintuc-chung.html">Tin tức chung</a></li>
                                     <li><a href="tintuc-km.html">Khuyến mại</a></li>
                                     
+                                    
                                 </ul>
-                                  </li>
+                                  </li>                               
 
-                                <li class="nav-item float-sm-right">
+                                <li class="icon-navbar nav-item float-sm-right hidden-sm-down">
                                     <a class="nav-link nau d-inline-block mr-1" href="#"><i class="fa fa-search fa-lg"></i></a>
                                     <a class="nav-link nau d-inline-block" href="#"><i class="fa fa-shopping-cart fa-lg"></i></a>
                                 </li>
@@ -118,31 +150,31 @@
                 
 <!-- khối ảnh -->
                
-    <div class="col-sm-4">
+    <div class="col-md-4">
       <a class="example-image-link" href="images/gallery/anhto/trang1/anhto1.jpg" data-lightbox="example-set"><img class="example-image anhthuvien img-fluid" src="images/gallery/anhnho/trang1/anh1.jpg" alt=""/></a></div>
 
-<div class="col-sm-4">
+<div class="col-md-4">
       <a class="example-image-link" href="images/gallery/anhto/trang1/anhto2.jpg" data-lightbox="example-set"><img class="example-image anhthuvien img-fluid" src="images/gallery/anhnho/trang1/anh2.jpg" alt="" /></a></div>
 
-<div class="col-sm-4">
+<div class="col-md-4">
       <a class="example-image-link" href="images/gallery/anhto/trang1/anhto3.jpg" data-lightbox="example-set"><img class="example-image anhthuvien img-fluid" src="images/gallery/anhnho/trang1/anh3.jpg" alt="" /></a></div>
 
-<div class="col-sm-4">
+<div class="col-md-4">
       <a class="example-image-link" href="images/gallery/anhto/trang1/anhto4.jpg" data-lightbox="example-set"><img class="example-image anhthuvien img-fluid" src="images/gallery/anhnho/trang1/anh4.jpg" alt="" /></a></div>
 
-<div class="col-sm-4">
+<div class="col-md-4">
       <a class="example-image-link" href="images/gallery/anhto/trang1/anhto5.jpg" data-lightbox="example-set"><img class="example-image anhthuvien img-fluid" src="images/gallery/anhnho/trang1/anh5.jpg" alt="" /></a></div>
 
-<div class="col-sm-4">
+<div class="col-md-4">
       <a class="example-image-link" href="images/gallery/anhto/trang1/anhto6.jpg" data-lightbox="example-set"><img class="example-image anhthuvien img-fluid" src="images/gallery/anhnho/trang1/anh6.jpg" alt="" /></a></div>
 
-<div class="col-sm-4">
+<div class="col-md-4">
       <a class="example-image-link" href="images/gallery/anhto/trang1/anhto7.jpg" data-lightbox="example-set"><img class="example-image anhthuvien img-fluid" src="images/gallery/anhnho/trang1/anh7.jpg" alt="" /></a></div>
 
-<div class="col-sm-4">
+<div class="col-md-4">
       <a class="example-image-link" href="images/gallery/anhto/trang1/anhto8.jpg" data-lightbox="example-set"><img class="example-image anhthuvien img-fluid" src="images/gallery/anhnho/trang1/anh8.jpg" alt="" /></a></div>
 
-<div class="col-sm-4">
+<div class="col-md-4">
       <a class="example-image-link" href="images/gallery/anhto/trang1/anhto9.jpg" data-lightbox="example-set"><img class="example-image anhthuvien img-fluid" src="images/gallery/anhnho/trang1/anh9.jpg" alt="" /></a></div>
 
 
@@ -177,7 +209,7 @@
         <div class="footer-tren">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-lg-4">
                         <img src="images/logo-vang.png" alt="">
                         <p class="slogan">Hoa tâm trà - gìn giữ và phát triển</p>
                         <p><i class="fa fa-map-marker vang"> </i> Quán trà: Số 26 Vạn Phúc - Ba Đình - HN</p>
@@ -185,46 +217,46 @@
                         <p><i class="fa fa-envelope-o vang"></i> Email:hoatamtra886@gmail.com</p>
                     </div> <!-- end col-4 -->
 
-                    <div class="col-sm-8">
+                    <div class="col-lg-8">
                         <div class="row">
 
-                    <div class="col-sm-3">
+                    <div class="col-lg-3 col-md-3 tieudevang">
                         
                                 <h6 class="vang">VỀ CHÚNG TÔI</h6>
-                                <a class="d-block" href="">Trang chủ</a>
-                                <a class="d-block" href="">Giới thiệu</a>
-                                <a class="d-block" href="">Sản phẩm</a>
+                                <a class="d-block" href="index.html">Trang chủ</a>
+                                <a class="d-block" href="gioithieu.html">Giới thiệu</a>
+                                <a class="d-block" href="sanpham.html">Sản phẩm</a>
                             </div>
-                            <div class="col-sm-3 ">
+                            <div class="col-lg-3 col-md-3 tieudevang ">
                                 <h6 class="vang">CHÍNH SÁCH </h6>
                                 <a class="d-block" href="">Bán hàng</a>
                                 <a class="d-block" href="">Vận chuyển</a>
                                 <a class="d-block" href="">Thanh toán</a>
                             </div>
 
-                            <div class="col-sm-3">
+                            <div class="col-lg-3 col-md-3 tieudevang">
                         
                                 <h6 class="vang">TIN TỨC</h6>
-                                <a class="d-block" href="">Sự kiện</a>
-                                <a class="d-block" href="">Văn hóa </a>
-                                <a class="d-block" href="">Pháp luật</a>
+                                <a class="d-block" href="tintuc-chung.html">Sự kiện</a>
+                                <a class="d-block" href="tintuc-tra.html">Trà</a>
+                                <a class="d-block" href="tintuc-km.html">Khuyến mại</a>
                             </div>
 
-                            <div class="col-sm-3 ">
+                            <div class="col-lg-3 col-md-3 tieudevang">
                                 <h6 class="vang">TÀI KHOẢN</h6>
                                 <a class="d-block" href="">Giỏ hàng</a>
-                                <a class="d-block" href="">Đăng ký</a>
-                                <a class="d-block" href="">Đăng nhập</a>
+                                <a class="d-block" href="dangky.html">Đăng ký</a>
+                                <a class="d-block" href="dangnhap.html">Đăng nhập</a>
                             </div>
 
-                            <div class="col-sm-6 pt-3 ">
+                            <div class="col-lg-6 col-md-6 pt-3 ">
                                 <p>Giấy phép ĐKKD số: 01G8017834 cấp ngày 17/3/2016 </p>
                                 <p>Chịu trách nhiệm website: Lê Nam Sơn.</p>
                                 <p>Email: hoatamtra886@gmail.com; ĐT: 0974743699</p>
                             </div>
 
-                            <div class="col-sm-1"></div>
-                            <div class="col-sm-5 pt-3 pb-1 ">
+                            <div class="col-lg-1 col-md-1"></div>
+                            <div class="col-lg-5 col-md-5 pt-3 pb-1 ">
                                 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhoatamtra&tabs=timeline&width=300&height=220&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="215" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
                             </div>
                             
@@ -232,26 +264,26 @@
                     </div> <!-- end col-8 -->
                                          
                            
-                    <div class="col-sm-12">
+                    <div class="col-lg-12">
                         <div class="row">
                             <hr class="hrtrang">
                         </div>
                     </div>
-                    <div class="khoiduoi col-sm-12">
+                    <div class="khoiduoi col-lg-12">
                         <div class="row">
-                            <div class="col-sm-7">
+                            <div class="col-lg-7 col-md-8">
                                 <ul>
                                     <li>
-                                        <a href="">Trang chủ</a>
-                                        <a href="">Giới thiệu</a>
-                                        <a href="">Sản phẩm</a>
-                                        <a href="">Menu</a>
-                                        <a href="">Thư viện</a>
-                                        <a href="">Tin tức</a>
+                                        <a href="index.html">Trang chủ</a>
+                                        <a href="gioithieu.html">Giới thiệu</a>
+                                        <a href="sanpham.html">Sản phẩm</a>
+                                        <a href="menu.html">Menu</a>
+                                        <a href="thuvien.html">Thư viện</a>
+                                        <a href="tintuc.html">Tin tức</a>
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-sm-5 pb-1  ">
+                            <div class="col-lg-5 col-md-4 pb-1 ">
                                 <a href=""><i class="fa fa-youtube-play fa-lg "></i></a>
                                 <a href=""><i class="fa fa-google-plus fa-lg"></i></a>
                                 <a href=""><i class="fa fa-twitter fa-lg"></i></a>
@@ -264,10 +296,10 @@
             <!-- end container -->
         </div>
         <!-- end footer-tren -->
-        <div class="footer-duoi text-sm-center">
+        <div class="footer-duoi text-xs-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-lg-12">
                         <div class="banquyen">© Copyright 2017 Powered By <span style="color: #fef5c0;">Spyder Team -</span> All Rights Reserved </div>
                     </div>
                 </div>

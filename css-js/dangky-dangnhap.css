@@ -1,0 +1,67 @@
+.khoidangky{
+	background: #fffdf8;
+	padding-bottom: 70px;
+}
+
+
+.tieude-dk{
+	
+	font-weight: bold;
+	font-size: 22px;
+	border-bottom: 1px solid #f2f2f2;
+	margin-bottom: 30px;
+	padding-top: 70px;
+	padding-bottom: 10px;
+}
+
+.form-check+.form-check{
+	margin-top: 0;
+}
+
+.hoac{
+	border-right: 1px dashed #b6b6b6;
+	position: relative;
+	height: 425px;
+}
+
+.hoac2{
+	border-right: 1px dashed #b6b6b6;
+	position: relative;
+	height: 230px;
+}
+
+.anhhoac{
+	position: absolute;
+	right: -17px;
+	top: 45%;
+}
+
+.fb-wrap{
+	
+	position: absolute;
+	top: 35%;
+	right: 0;
+}
+
+.gg-wrap{
+	
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
+
+.gg-fb{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.text-fb{
+	font-size: 14px;
+	padding: 3px 5px 7px 5px;
+}
+
+.text-gg{
+	font-size: 14px;
+	padding: 3px 12px 7px 12px;
+}

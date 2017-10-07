@@ -46,8 +46,8 @@ html{
 	color: #fcf8e6;
 }
 
-.trangcf2{
-	color: #fffcf2;
+.trangdf8{
+	color: #fffdf8;
 }
 
 .trangfc{
@@ -104,6 +104,8 @@ html{
 
 }
 
+
+
 .dropdown-menu a{
 	
 	color: #c7a17a;
@@ -156,14 +158,12 @@ html{
 	padding-top: 8px;
 }
 
-.icon-navbar{
 
-}
 
 /*css cho header*/
 .header{
 	height: 80px;
-	background-color: #fffcf2;
+	background-color: #fffdf8;
 }
 
 
@@ -238,7 +238,7 @@ html{
 .khoigioithieu{
 	width: 100%;
 	height: auto;
-	background-color: #fcf8e6;
+	background-color: #fdfaed;
 	padding-top: 70px;
 	padding-bottom: 70px;
 
@@ -270,7 +270,7 @@ html{
 .khoisanpham{
 	padding-top: 70px;
 	padding-bottom: 70px;
-	background-color: #fffcf2;
+	background-color: #fffdf8;
 }
 
 .anhsanpham{
@@ -481,7 +481,7 @@ html{
 
 /*css cho khoithuvien*/
 .khoithuvien{
-	background-color: #fcf8e6;
+	background-color: #fdfaed;
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
@@ -498,7 +498,7 @@ padding-left: 0;
 .khoitintuc{
 	padding-top: 70px;
 	padding-bottom: 70px;
-	background-color: #fffcf2;
+	background-color: #fffdf8;
 }
 
 .tieudetin{
@@ -772,18 +772,36 @@ background: none;
 	}
 
 	.menutitle{
-		font-size: 16px;
+		font-size: 16px !important;
 	}
 
 	.menuprice{
-		font-size: 18px;
+		font-size: 18px !important;
 	}
 
 	.menusub{
-		font-size: 12px;
+		font-size: 12px !important;
 	}
 
+	.fb-wrap{
+		margin-bottom: 1rem;
+	}
+
+	.submenu li{
+		margin-right: 20px !important;
+	}
 	
+	.submenu li a{
+		font-size: 12px !important;
+	}
+	
+	.tlq{
+		padding-bottom: 20px;
+		padding-top: 20px;
+		border-bottom: 1px solid #e5e5e5;
+		max-width: 360px;
+		margin:auto;
+	}
 
 
 }
@@ -838,6 +856,34 @@ background: none;
 		padding-bottom: 30px;
 		border-bottom: 1px solid #e5e5e5;
 		margin: auto;
+	}
+
+	.fb-wrap{
+		position: unset !important;
+		display: inline-block;
+		margin-right: 2rem;
+		
+	}
+
+	.gg-fb{
+		position: unset !important;
+	}
+
+	.gg-wrap{
+		position: unset !important;
+		display: inline-block;
+	}
+
+	.menutitle{
+		font-size: 20px;
+	}
+
+	.menuprice{
+		font-size: 22px;
+	}
+
+	.menusub{
+		font-size: 16px;
 	}
 
 
