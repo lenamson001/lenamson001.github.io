@@ -357,7 +357,16 @@ html{
 .card-title{
 	font-size: 18px;
 	line-height: 25px;
+	margin-bottom: 0.5rem;
 
+}
+
+.sao{
+	color: #947456;
+}
+
+.link-card:hover{
+	text-decoration: none;
 }
 
 .view-price{
