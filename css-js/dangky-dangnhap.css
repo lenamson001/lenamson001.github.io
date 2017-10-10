@@ -58,10 +58,27 @@
 
 .text-fb{
 	font-size: 14px;
-	padding: 3px 5px 7px 5px;
+	padding: 4px 5px 8px 5px;
+	border-radius:0px;
 }
 
 .text-gg{
 	font-size: 14px;
-	padding: 3px 12px 7px 12px;
+	padding: 4px 13px 8px 13px;
+	/*border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;*/
+}
+
+.fb-icon{
+	font-size: 35px !important;
+    position: relative;
+    top: -2px;
+    right: -1px;
+}
+
+.gg-icon{
+	font-size: 35px !important;
+    position: relative;
+    top: -2px;
+    right: -1px;
 }
