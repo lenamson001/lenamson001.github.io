@@ -812,6 +812,14 @@ background: none;
 		margin:auto;
 	}
 
+	.textbanner-duoi{
+		top: 25% !important;
+	}
+
+	.textbanner-duoi h1{
+		font-size: 2rem;
+	}
+
 
 }
 

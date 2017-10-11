@@ -1,0 +1,51 @@
+.title-mission{
+	font-size: 30px;	
+	color: #3d0e0a;
+	padding-bottom: 50px;
+}
+
+.khoisao{
+	color: #947456 !important;
+}
+
+.khoisao i{
+	padding-left: 8px;
+}
+
+.text-xam72{
+	color: #727272;
+	font-size: 20px;
+}
+
+.text-first{
+	color: #3d0e0a;
+	font-size: 26px;
+}
+
+.text-second{
+	font-size: 22px;
+}
+
+.wrapbanner-duoi{
+	position: relative;
+	max-width: 100%;
+	height: auto;
+}
+
+.anhbanner-duoi{
+	background: url(../images/gioithieu/anhduoi-opacity.jpg);
+	max-width: 100%;
+	min-height: 470px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textbanner-duoi{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+}
