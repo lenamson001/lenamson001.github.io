@@ -355,7 +355,7 @@ html{
 
 
 .card-title{
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 25px;
 	margin-bottom: 0.5rem;
 
@@ -903,6 +903,10 @@ background: none;
 		font-size: 16px;
 	}
 
+	.motkhoiwidget{
+		max-width: 100% !important;
+	}
+
 
 }
 
@@ -928,6 +932,15 @@ background: none;
 
 	.tieudevang{
 		padding-top: 40px;
+	}
+
+
+	.tieudewidget{
+		font-size: 14px !important;
+	}
+
+	.tieude-danhmuc a{
+		font-size: 12px;
 	}
 
 }

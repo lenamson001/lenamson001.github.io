@@ -1,0 +1,77 @@
+/*css cho sidebar bên trái*/
+
+.motkhoiwidget{
+	max-width: 360px;
+	height: 500px;
+	box-shadow: 0px 2px 3px rgba(0,0,0,0.12), 0px 2px 3px rgba(0,0,0,0.12);
+	margin-bottom: 40px;
+
+}
+
+.tieudewidget{
+	color: #4c2016;
+	font-size: 18px;
+	border-bottom: 1px solid #e4e5e6;
+	border-top: 1px solid #e4e5e6;
+	background-color: #fffac2;
+	padding: 10px;
+}
+
+.tieude-danhmuc{
+	padding-top: 15px;
+	padding-left: 10px;
+	font-size: 18px;
+	
+}
+
+.tieude-danhmuc a{
+	color: #643e3b;
+	text-decoration: none;
+}
+
+.tieude-danhmuc a:hover{
+	color: #3d0e0a;
+}
+
+.danhmuc{
+	font-size: 14px;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+.danhmuc a{
+	color: #777;
+	text-decoration: none;
+}
+
+.danhmuc a:hover{
+	color: #643e3b;
+}
+
+
+
+/*css cho nội dung bên phải*/
+
+.wrap-banner{
+	position: relative;
+	width: 100%;
+	height: 305px;
+	background: url(../images/sanpham/trang-sanpham/tatcasp/banner-tren.jpg);
+}
+
+.anh-banner{
+	position: absolute;
+}
+
+.text-banner{
+	position: absolute;
+	width: 100%;
+	top: 40%;	
+	font-size: 36px;
+	color: white;
+	z-index: 2;
+	text-align: center;
+}
+
+
+
