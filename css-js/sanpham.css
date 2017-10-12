@@ -74,4 +74,55 @@
 }
 
 
+/*css cho khối trà ngọc thúy*/
 
+.count-box{
+	width: 70px;
+	height: 50px;
+	border: 2px solid gray;
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-right: 30px;
+}
+
+.number{
+	position: absolute;
+	top: 8px;
+	left: 12px;
+	font-size:20px;
+}
+
+.tren{
+	position: absolute;
+	right: 7px;
+	top: 7px;
+}
+
+.duoi{
+	position: absolute;
+	right: 7px;
+	bottom: 7px;
+}
+
+.addcart{
+	display: inline-block;
+	padding: 14px 10px;
+	
+
+}
+
+.nau16{
+	color: #3d0e0a;
+}
+
+.xam14{
+	font-size: 14px;
+}
+
+.tieudehr{
+	font-size: 26px;
+	border-bottom: 1px solid gray;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}

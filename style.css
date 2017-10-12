@@ -675,7 +675,11 @@ padding-left: 0;
 
 
 .btn-null{
-background: none;
+	color: #777;
+}
+
+.btn-null:hover{
+	color: #3d0e0a;
 }
 
 .chutieude{
